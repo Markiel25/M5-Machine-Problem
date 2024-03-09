@@ -1,0 +1,140 @@
+	
+#main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	height: auto;
+}
+body {
+			margin: 0px auto;
+			background-color: #60a9ff;
+			
+			
+		}
+		
+	
+		.maindiv{
+			background-color: white;
+			border-radius: 20px
+		}
+		.head {
+    color: #888;
+    font-size: 20px;
+    font-weight: 600;
+}
+		.head11{
+    color: #016ff9;
+    font-weight: 600;
+	border-top: 1px solid #e1f1ff;
+	line-height: 26px;
+}
+		.head12{
+    color: #016ff9;
+    font-weight: 600;
+	border-top: 1px solid #e1f1ff;
+	line-height: 26px;
+}
+		.head13{
+    color: #016ff9;
+    font-weight: 600;
+	border-top: 1px solid #e1f1ff;
+	line-height: 26px;
+}
+		.but1{
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: white;
+    color: #016ff9;
+    border: 1px solid #016ff9;
+	transition: 0.2s;
+}
+		.but1:hover{
+			background-color: #e1f1ff;
+		}
+		.but2{
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #48aaff;
+    color: white;
+    border: 0px;
+	transition: 0.2s;
+}
+		.but2:hover{
+			background-color: #269aff;
+		}
+		
+		@media only screen and (min-width: 768px){
+			#main{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			height: 100vh;
+			max-width: 113vh;
+			
+		}
+			
+			body {
+			margin: 0px auto;
+			background-color: #60a9ff;
+			
+			
+		}
+		
+	
+		.maindiv{
+			background-color: white;
+			border-radius: 20px
+		}
+		.head {
+    color: #888;
+    font-size: 20px;
+    font-weight: 600;
+}
+		.head11{
+    color: #016ff9;
+    font-weight: 600;
+	border-top: 1px solid #e1f1ff;
+	line-height: 26px;
+}
+		.head12{
+    color: #016ff9;
+    font-weight: 600;
+	border-top: 1px solid #e1f1ff;
+	line-height: 26px;
+}
+		.head13{
+    color: #016ff9;
+    font-weight: 600;
+	border-top: 1px solid #e1f1ff;
+	line-height: 26px;
+}
+		.but1{
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: white;
+    color: #016ff9;
+    border: 1px solid #016ff9;
+	transition: 0.2s;
+}
+		.but1:hover{
+			background-color: #e1f1ff;
+		}
+		.but2{
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #48aaff;
+    color: white;
+    border: 0px;
+	transition: 0.2s;
+}
+		.but2:hover{
+			background-color: #269aff;
+		}
+		
+		
+			
+		}
