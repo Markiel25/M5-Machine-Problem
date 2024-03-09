@@ -1,0 +1,314 @@
+main {
+
+    margin: 30px 30px;
+}
+
+img {
+
+    height: auto;
+    width: auto;
+    margin-top: 50px;
+}
+
+.maintext {
+
+    display: block;
+    margin: 0px;
+    font-family: sans-serif;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 4.6rem;
+
+}
+
+.logo {
+    background-image: linear-gradient(rgb(208, 233, 255), white);
+    padding-top: 10px;
+    margin: 70px;
+    margin-bottom: 10px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    flex-grow: 1;
+}
+
+span {
+    margin: 0px;
+    text-align: center;
+    font-family: "Roboto", "Arial", sans-serif;
+    font-size: 1.3rem;
+    line-height: 2.6rem;
+    font-weight: 400;
+}
+
+button {
+    margin-top: 0px;
+    padding: 0px 50px;
+    background-color: #065fd4;
+    color: white;
+    font-size: 18px;
+    line-height: 48px;
+    cursor: pointer;
+    border: 1px solid #065fd4;
+    ;
+    border-radius: 30px;
+}
+
+button:hover {
+    background-color: #0754b9;
+}
+
+a {
+    padding: inherit;
+    margin: inherit;
+    text-decoration: none;
+    color: #0754b9;
+}
+
+.infobutton {
+    text-align: center;
+    margin: auto;
+    display: block;
+    font-size: 0.8rem;
+    color: rgb(100, 98, 98);
+}
+
+.reffrallink {
+
+    cursor: pointer;
+    line-height: 0px;
+}
+
+.features-panel img {
+    display: block;
+    margin: auto;
+    width: 100px;
+    height: 100px;
+}
+
+.features-panel {
+    margin-top: 60px;
+    padding: 64px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.features-panel div {
+    padding: 16px;
+}
+
+.features-panel span {
+    font-size: 14px;
+    color: #0f0f0f;
+    line-height: normal;
+    letter-spacing: 0.8px;
+    display: flex;
+    align-items: center;
+    padding: 16px;
+}
+
+.price-panel {
+
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+
+}
+
+.price-panel div {
+    width: 28%;
+    height: auto;
+    padding: 10px;
+    border: 1px solid rgb(245, 244, 244);
+    box-shadow: 1px 5px 10px 5px rgb(230, 229, 229);
+    border-radius: 24px;
+}
+
+.price-panel div span {
+    text-align: left;
+    display: block;
+
+
+}
+
+.heading img {
+    padding-right: 10px;
+    margin-top: 0px;
+    width: 20px;
+    height: 20px;
+}
+
+.heading {
+    line-height: 40px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(235, 235, 235);
+    margin-top: 0px;
+    font-size: 25px;
+    font-family: sans-serif monospace;
+    font-weight: 700;
+}
+
+.duration {
+    font-size: 13px;
+    font-weight: 600;
+    color: rgb(94, 94, 94);
+    margin-top: 10px;
+    line-height: 10px;
+
+}
+
+.price {
+    line-height: 35px;
+    font-weight: 400;
+}
+
+.trial {
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(39, 38, 38);
+    line-height: 8px;
+}
+
+.details {
+    padding-top: 5px;
+    line-height: 15px;
+    font-size: 0.8rem;
+    color: rgb(100, 98, 98);
+
+}
+
+.price-panel button {
+    width: 100%;
+    margin: 15px auto;
+    background-color: #c9dffb;
+    color: rgb(30, 0, 201);
+    border: none;
+
+}
+
+.price-panel button:hover {
+    background-color: #80b3f6;
+}
+
+.individual button {
+    margin-top: 30px;
+    background-color: #0754b9;
+    color: azure;
+}
+
+@media(max-width:970px) {
+    .logo {
+        margin: 10px;
+        padding: 20px;
+    }
+
+
+    .maintext {
+        font-size: 35px;
+        font-weight: 700;
+        line-height: 45px;
+    }
+
+    .features-panel {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .price-panel {
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .price-panel div {
+        width: 60%;
+        padding: 20px;
+        margin-top: 30px;
+    }
+
+}
+
+@media(max-width:420px) {
+    .logo {
+        padding: 10px;
+        height: auto;
+
+    }
+
+    .logo img {
+        width: 220px;
+        height: auto;
+        padding: 20px;
+    }
+
+    .maintext {
+        font-size: 25px;
+        font-weight: 700;
+        line-height: 30px;
+        padding: 20px;
+    }
+
+    .logo span {
+        line-height: normal;
+        padding: 20px;
+    }
+
+    .reffrallink {
+        display: inline;
+        line-height: 0px;
+    }
+
+    .price-panel button {
+        line-height: normal;
+        padding: 10px 50px;
+        font-size: 16px;
+    }
+
+    .features-panel {
+        padding: 40px;
+        margin-top: 0px;
+    }
+
+    .features-panel div {
+        padding: 0px;
+        margin: auto;
+    }
+
+    .infobutton {
+        line-height: normal;
+    }
+
+    .price-panel div {
+        width: 80%;
+    }
+
+    @media(max-width:360px) {
+        main {
+            padding: 0px;
+            margin: auto;
+        }
+
+        .logo {
+            margin: 0px;
+        }
+    }
+
+    @media(max-width:260px) {
+        .logo img {
+            width: 90px;
+            height: auto;
+        }
+
+        .logo {
+            flex-wrap: nowrap;
+        }
+    }
+}
